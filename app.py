@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 st.set_page_config(layout="wide")
 
 # Load the saved Ridge Regression model
-model = joblib.load('ridge_model.pkl')
+model = joblib.load('AutoML_model.pkl')
 
 # Function to make predictions
 def predict(features):
